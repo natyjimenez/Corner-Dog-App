@@ -1,0 +1,36 @@
+describe('Sección Editor Test', () => {
+    it('Login en Administrador para entrar a editor', () => {
+      cy.visit('/admin')
+      cy.get('#input-1').type('walterwhite@gmail.com')
+      cy.get('#input-2').type('123456')
+      cy.get('#btnAceptar').click() 
+    })
+    it('Agregar perro para adopción', () => {
+      cy.get('#addImg').type('https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/westy.png?alt=media&token=cd1373ce-3328-49df-9949-95f606e7836f')
+      cy.get('#addName').type('Ruffo')
+      cy.get('#addGender').type('Macho')
+      cy.get('#addAge').type('2 Años.')
+      cy.get('#addSize').type('Pequeño.')
+      cy.get('#addSterilized').type('Sí.')
+      cy.get('#addApartment').type('Sí.')
+      cy.get('#addPets').type('Sí.')
+      cy.get('#addChildren').type('Sí, es muy juguetón con los niños.')
+      cy.get('#addContactName').type('Shakira')
+      cy.get('#addContactNumber').type('+56936521478')
+      cy.get('#clickAdd').click()
+      cy.wait(5000)
+      cy.get('#datosPerros').contains('td','Ruffo')    
+    })
+    it('Editar perro para adopción', () => {
+      cy.get('#btnEditarPerrito').click()
+      cy.get('#editNameDog').type(' Augusto')
+      cy.get('.btnCambios').click()
+      cy.get('#datosPerros').contains('td','Ruffo Augusto') 
+    })
+    it('Eliminar perro para adopción', () => {
+      cy.get('#btnEliminarPerrito').click()
+    })
+   it('Logout', () => {
+      cy.get('.btnLogout').click() 
+   })
+  })

@@ -15,7 +15,7 @@
         </b-form-input>
       </b-form-group>
 
-      <b-button type="submit" class="btnAceptar" @click="login">Aceptar</b-button>
+      <b-button type="submit" class="btnAceptar" id="btnAceptar" @click="login">Aceptar</b-button>
  
       </div> 
   </div>

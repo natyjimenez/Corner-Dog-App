@@ -9,18 +9,18 @@
     <v-card-actions>
       <v-spacer></v-spacer>
 
-      <v-btn icon @click="show = !show">
+      <v-btn icon @click="show = !show" id="botonAbrirEnfermedades">
         <v-icon>{{ show ? "mdi-chevron-up" : "mdi-chevron-down" }}</v-icon>
       </v-btn>
     </v-card-actions>
 
     <v-expand-transition>
-      <div v-show="show">
+      <div v-show="show" id="cartaEnfermedades">
         <v-divider></v-divider>
-        <v-card-text class="txtIzqTip">
+        <v-card-text class="txtIzqTip" id="txtTipProblemas">
           <b>Problemas:</b> {{ tip.data.problemas }}
         </v-card-text>
-        <v-card-text class="txtIzqTip">
+        <v-card-text class="txtIzqTip" id="txtTipRazas">
           <b>Razas propensas a padecerla:</b> {{ tip.data.razas }}
         </v-card-text>
       </div>

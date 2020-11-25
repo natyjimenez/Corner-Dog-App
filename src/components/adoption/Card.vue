@@ -7,7 +7,7 @@
     </v-card-text>
 
     <v-card-actions>
-      <v-btn class="btnMoreAdoption" @click="reveal = true">
+      <v-btn class="btnMoreAdoption" id="btnMoreAdoption" @click="reveal = true">
         Leer más
       </v-btn>
     </v-card-actions>
@@ -19,31 +19,31 @@
         style="height: 100%;"
       >
         <v-card-text class="pb-0">
-          <div class="textCard">
+          <div class="textCard" id="textoCard">
             <h5 class="contactoCard">Datos Mascota</h5>
-            <div><b>Nombre:</b> {{ adoptado.data.nombre }}</div>
-            <div><b>Sexo:</b> {{ adoptado.data.sexo }}</div>
-            <div><b>Edad:</b> {{ adoptado.data.edad }}</div>
-            <div><b>Tamaño:</b> {{ adoptado.data.tamano }}</div>
-            <div><b>Esterilizado:</b> {{ adoptado.data.esterilizado }}</div>
-            <div>
+            <div id="nombreMascota"><b>Nombre:</b> {{ adoptado.data.nombre }}</div>
+            <div id="sexoMascota"><b>Sexo:</b> {{ adoptado.data.sexo }}</div>
+            <div id="edadMascota"><b>Edad:</b> {{ adoptado.data.edad }}</div>
+            <div id="tamanoMascota"><b>Tamaño:</b> {{ adoptado.data.tamano }}</div>
+            <div id="esterilizadoMascota"><b>Esterilizado:</b> {{ adoptado.data.esterilizado }}</div>
+            <div id="aptoParaDpto">
               <b>Recomendado para departamento:</b> {{ adoptado.data.espacio }}
             </div>
-            <div>
+            <div id="aptoOtrasMascotas">
               <b>Se adapta a otras mascotas:</b> {{ adoptado.data.mascotas }}
             </div>
-            <div><b>Recomendado para niños:</b> {{ adoptado.data.ninos }}</div>
+            <div id="AptoNinos"><b>Recomendado para niños:</b> {{ adoptado.data.ninos }}</div>
 
             <div>
-              <h5 class="contactoCard">Datos contacto</h5>
-              <div><b>Nombre:</b> {{ adoptado.data.contacto }}</div>
-              <div><b>Wapp:</b> {{ adoptado.data.wapp }}</div>
+              <h5 class="contactoCard" id="datosContacto">Datos contacto</h5>
+              <div id="nombreContacto"><b>Nombre:</b> {{ adoptado.data.contacto }}</div>
+              <div id="numeroContacto"><b>Wapp:</b> {{ adoptado.data.wapp }}</div>
             </div>
           </div>
         </v-card-text>
 
         <v-card-actions class="pt-0">
-          <v-btn class="btnCerrarAdoption" @click="reveal = false">
+          <v-btn class="btnCerrarAdoption" id="btnCerrarAdoption" @click="reveal = false">
             Cerrar
           </v-btn>
         </v-card-actions>

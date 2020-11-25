@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="banner-about">
-      <h1>Misión</h1>
+      <h1 id="tituloMision">Misión</h1>
     </div>
     <div class="contMision">
       <b-container class="txtPrincipal p-5">

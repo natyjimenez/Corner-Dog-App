@@ -1,13 +1,13 @@
 <template>
   <v-card class="cardBreed mx-auto" max-width="344">
     <v-card-text>
-      <v-card-title class="tituloCard">{{ raza.data.nombre }}</v-card-title>
+      <v-card-title class="tituloCard" id="nombreRaza">{{ raza.data.nombre }}</v-card-title>
       <v-img height="250" :src="raza.data.img"></v-img>
       <v-divider class="mx-4"></v-divider>
     </v-card-text>
 
     <v-card-actions>
-      <v-btn class="btnMoreBreed" @click="reveal = true">
+      <v-btn class="btnMoreBreed" id="btnMoreBreed" @click="reveal = true">
         Leer Más
       </v-btn>
     </v-card-actions>
@@ -19,14 +19,14 @@
         style="height: 100%;"
       >
         <v-card-text class="pb-0">
-          <div class="textCard">
-            <div><b>Altura:</b> {{ raza.data.altura }}</div>
-            <div><b>Peso:</b> {{ raza.data.peso }}</div>
-            <div><b>Pelaje:</b> {{ raza.data.pelaje }}</div>
-            <div><b>Característica:</b> {{ raza.data.caracteristica }}</div>
-            <div><b>Espacio recomendado:</b> {{ raza.data.espacio }}</div>
-            <div><b>Dueño ideal:</b> {{ raza.data.dueno }}</div>
-            <div><b>Actividad requerida:</b> {{ raza.data.actividad }}</div>
+          <div class="textCard" id="textCardBreed">
+            <div id="alturaRaza"><b>Altura:</b> {{ raza.data.altura }}</div>
+            <div id="pesoRaza"><b>Peso:</b> {{ raza.data.peso }}</div>
+            <div id="pelajeRaza"><b>Pelaje:</b> {{ raza.data.pelaje }}</div>
+            <div id="caractRaza"><b>Característica:</b> {{ raza.data.caracteristica }}</div>
+            <div id="espacioRaza"><b>Espacio recomendado:</b> {{ raza.data.espacio }}</div>
+            <div id="duenoRaza"><b>Dueño ideal:</b> {{ raza.data.dueno }}</div>
+            <div id="actividadRaza"><b>Actividad requerida:</b> {{ raza.data.actividad }}</div>
             <div>
               <b>Advertencia:</b>
               <ul class="txtAdvertencia">
@@ -39,7 +39,7 @@
         </v-card-text>
 
         <v-card-actions class="pt-0">
-          <v-btn class="btnCerrarBreed" @click="reveal = false">
+          <v-btn class="btnCerrarBreed" id="btnCerrarBreed" @click="reveal = false">
             Cerrar
           </v-btn>
         </v-card-actions>

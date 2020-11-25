@@ -20,7 +20,6 @@
           <b-nav-item to="/enfermedades">Enfermedades Genéticas</b-nav-item>
           <b-nav-item to="/adoption">Adopta</b-nav-item>
           <b-nav-item to="/contact">Contacto</b-nav-item>
-          <b-nav-item to="/admin" disabled>Administrador</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
