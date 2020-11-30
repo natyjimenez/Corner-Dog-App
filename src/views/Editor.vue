@@ -236,7 +236,7 @@ export default {
 <style>
 .btnLogout {
   color: #ffffff;
-  background-color: rgb(3, 170, 148);
+  background-color: rgb(48, 151, 247);
   border-style: none !important;
   border-radius: 5px;
   padding: 10px 20px;
@@ -255,11 +255,12 @@ export default {
 }
 .btnDelete {
   color: #ffffff !important;
-  background-color: rgb(159, 128, 230) !important;
+  background-color: rgb(99, 51, 211) !important;
   border-style: none !important;
   border-radius: 5px;
   padding: 10px 20px;
   margin-right: 2px;
+  margin-top: 3px;
 }
 .btnEdit {
   color: #ffffff !important;
@@ -271,7 +272,7 @@ export default {
 }
 .btnAdd {
   color: #ffffff !important;
-  background-color: rgb(228, 175, 2) !important;
+  background-color: #fcbd11 !important;
   border-style: none !important;
   border-radius: 5px;
   padding: 10px 20px;
@@ -280,7 +281,7 @@ export default {
 }
 .btnCambios {
   color: #ffffff !important;
-  background-color: rgb(48, 151, 247) !important;
+  background-color: #fcbd11 !important;
   border-style: none !important;
   border-radius: 5px;
   padding: 10px 20px;

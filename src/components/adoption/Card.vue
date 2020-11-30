@@ -82,12 +82,12 @@ export default {
   font-size: 14px;
 }
 .btnCerrarAdoption {
-  background-color: rgb(252, 193, 0) !important;
+  background-color: #fcd34f !important;
   color: #ffffff !important;
   margin-top: 20px;
 }
 .btnMoreAdoption {
-  background-color: rgba(247, 196, 29, 0.774) !important;
+  background-color: #fcbd11 !important;
   color: #ffffff !important;
 }
 .contactoCard {

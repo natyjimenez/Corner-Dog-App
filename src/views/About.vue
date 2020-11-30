@@ -97,7 +97,7 @@ export default {};
   margin-bottom: 100px;
 }
 .banner-about {
-  background-image: url("../../src/assets/img/huesitos-banner.png");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-MISION.png?alt=media&token=e1c00c0a-a142-453b-87b9-10eed1156ea2");
   color: #ffffff;
   padding: 20px;
   text-shadow: 0.1em 0.1em #333;
@@ -107,20 +107,20 @@ export default {};
   margin-bottom: 100px;
 }
 .txtPrincipal {
-  background-color: #33cc99 !important;
+  background-color: #f36bbfde !important;
   color: #ffffff;
-  text-align: justify;
+  text-align: left;
 }
 .txtRaza {
   text-align: justify;
 }
 .txtPrimero {
-  background-color: rgb(159, 128, 230);
+  background-color: rgb(149, 115, 228);
   color: #ffffff;
   text-align: justify;
 }
 .txtSegundo {
-  background-color: rgb(101, 66, 180);
+  background-color: rgb(99, 51, 211);
   color: #ffffff;
   text-align: justify;
 }

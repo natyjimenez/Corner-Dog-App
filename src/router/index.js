@@ -74,9 +74,10 @@ router.beforeEach((to, from, next) => {
 
   if (!usuario && autorizacion) {
     next("admin");
+  } else if (usuario && to.path == "/admin"){
+    next("/editor");
   } else if (usuario && !autorizacion) {
     next();
-  } else {
   }
   next();
 });

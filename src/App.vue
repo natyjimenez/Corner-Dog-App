@@ -9,7 +9,6 @@
      <router-link to="/adoption"><b-button class="btnAdopta">Adopta</b-button></router-link>
       <router-link to="/contact"><b-button class="btnContacto">Contacto</b-button></router-link> 
       <router-link to="/admin"><b-button class="btnAdmin">Administrador</b-button></router-link> 
-      <router-link to="/editor"><b-button class="btnEditor">Editor</b-button></router-link> 
     </div>
     <router-view/>
     <Footer />
@@ -50,50 +49,50 @@ export default {
   color: #2c3e50c2;
 }
 .botonera {
-  background-color:#6c757d;
+  background-color: #6c757d;
   color: #ffffff !important;
   padding: 10px;
   display: block;
 }
 .btnHome {
   color: #ffffff !important;
-  background-color: #70e73c !important;
+  background-color: #ffba00 !important;
   margin-left: 3px;
   margin-Right: 3px;
 }
 .btnMision {
   color: #ffffff !important;
-  background-color: #710c96 !important;
-  margin-left: 3px;
-  margin-Right: 3px;
-}
-.btnAdopta {
-  color: #ffffff !important;
-  background-color: #00c834 !important;
-  margin-left: 3px;
-  margin-Right: 3px;
-}
-.btnTips {
-  color: #ffffff !important;
-  background-color: #ed5564 !important;
+  background-color: #f72585 !important;
   margin-left: 3px;
   margin-Right: 3px;
 }
 .btnRazas {
   color: #ffffff !important;
-  background-color: #ffcc00 !important ;
+  background-color: #7209b7 !important;
+  margin-left: 3px;
+  margin-Right: 3px;
+}
+.btnTips {
+  color: #ffffff !important;
+  background-color: #3a0ca3 !important;
+  margin-left: 3px;
+  margin-Right: 3px;
+}
+.btnAdopta {
+  color: #ffffff !important;
+  background-color: #4361ee !important;
   margin-left: 3px;
   margin-Right: 3px;
 }
 .btnContacto {
   color: #ffffff !important;
-  background-color: #53bceb !important;
+  background-color:  #4cc9f0 !important;
   margin-left: 3px;
   margin-Right: 3px;
 }
 .btnAdmin {
   color: #ffffff !important;
-  background-color: #33cc99 !important;
+  background-color: #1DD3B0 !important;
   margin-left: 3px;
   margin-Right: 3px;
 }

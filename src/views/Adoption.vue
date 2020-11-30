@@ -49,7 +49,7 @@ export default {
   margin-bottom: 100px;
 }
 .banner-adoption {
-  background-image: url("../../src/assets/img/banner-huesito-verde-oscuro.png");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-ADOPTA.png?alt=media&token=674e89ba-0ac9-4920-86e5-6db9f786d636");
   color: #ffffff;
   padding: 20px;
   text-shadow: 0.1em 0.1em #333;
@@ -59,8 +59,8 @@ export default {
   justify-content: center;
 }
 .introAdoption {
-  background-color: rgb(159, 128, 230);
+  background-color: #6b9cf7ec;
   color: #ffffff;
-  text-align: justify;
+  text-align: left;
 }
 </style>

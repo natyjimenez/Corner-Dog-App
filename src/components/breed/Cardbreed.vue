@@ -66,11 +66,11 @@ export default {
   width: 100%;
 }
 .btnMoreBreed {
-  background-color: rgba(247, 196, 29, 0.774) !important;
+  background-color: #fcbd11 !important;
   color: #ffffff !important;
 }
 .btnCerrarBreed {
-  background-color: rgb(252, 193, 0) !important;
+  background-color: #fcd34f !important;
   color: #ffffff !important;
 }
 .txtAdvertencia {

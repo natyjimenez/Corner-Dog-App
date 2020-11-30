@@ -37,7 +37,7 @@ export default {
   margin-bottom: 100px;
 }
 .banner-contact {
-  background-image: url("../../src/assets/img/banner-huesito-verde-azul.png");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-CONTACTO.png?alt=media&token=2c1bfbe8-0895-42f2-96b6-ac8c1778d364");
   opacity: 0.8;
   color: #ffffff;
   padding: 20px;

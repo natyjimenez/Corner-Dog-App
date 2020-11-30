@@ -48,7 +48,7 @@ export default {
 <!-- Style -->
 <style>
 .banner-admin {
-  background-image: url("../../src/assets/img/banner-aqua.png");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-ADMIN.png?alt=media&token=bb055cd4-a855-48dc-9238-a7f9c64bf3ca");
   color: #ffffff;
   padding: 20px;
   text-shadow: 0.1em 0.1em #333;
@@ -56,7 +56,7 @@ export default {
 }
 .btnAceptar {
   color: #ffffff;
-  background-color: rgb(3, 170, 148);
+  background-color: #fcbd11;
   border-style: none !important;
   border-radius: 5px;
   padding: 10px 20px;
@@ -65,8 +65,8 @@ export default {
   max-width: 400px;
   margin: auto;
 }
-.datosLogin {
-  margin-top: 50px;
+.admin {
+  margin-top: 100px;
 }  
 .titleDatos {
   font-weight: bolder;

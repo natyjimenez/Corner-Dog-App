@@ -146,14 +146,14 @@ export default {
 
 <style lang="scss">
 .btnEnviar {
-  background-color: rgb(3, 170, 148) !important;
+  background-color: #fcbd11  !important;
   color: #ffffff !important;
   border-style: none;
   margin: 5px;
   padding: 10px 20px;
 }
 .btnBorrar {
-  background-color: rgb(248, 72, 72) !important;
+  background-color: rgb(99, 51, 211) !important;
   color: #ffffff !important;
   border-style: none;
   margin: 5px;

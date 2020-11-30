@@ -57,7 +57,7 @@ export default {
   margin-bottom: 100px;
 }
 .banner-breed {
-  background-image: url("../../src/assets/img/banner-huesito-naranja.png");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-RAZAS.png?alt=media&token=8f46ac8e-1103-46a3-be64-1f8eefcfe39b");
   color: #ffffff;
   padding: 20px;
   text-shadow: 0.1em 0.1em #333;
@@ -67,13 +67,8 @@ export default {
   justify-content: center;
 }
 .txtIzq {
-  background-color: rgb(159, 128, 230);
+  background-color: rgb(149, 115, 228);
   color: #ffffff;
-  text-align: justify;
-}
-.txtDcha {
-  background-color: rgb(101, 66, 180);
-  color: #ffffff;
-  text-align: justify;
+  text-align: left;
 }
 </style>
