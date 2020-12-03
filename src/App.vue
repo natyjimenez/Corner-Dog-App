@@ -30,11 +30,13 @@ export default {
     ...mapActions(["getDataRazas"]),
     ...mapActions(["getDataAdoptados"]),
     ...mapActions(["getDataTips"]),  
+    ...mapActions(["getDataFormulario"]), 
   },
    created () {
     this.getDataRazas();
     this.getDataAdoptados();
     this.getDataTips();
+    this.getDataFormulario();
   },
 };
 </script>
@@ -59,49 +61,57 @@ export default {
   background-color: #ffba00 !important;
   margin-left: 3px;
   margin-Right: 3px;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
 }
 .btnMision {
   color: #ffffff !important;
   background-color: #f72585 !important;
   margin-left: 3px;
   margin-Right: 3px;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
 }
 .btnRazas {
   color: #ffffff !important;
   background-color: #7209b7 !important;
   margin-left: 3px;
   margin-Right: 3px;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
 }
 .btnTips {
   color: #ffffff !important;
   background-color: #3a0ca3 !important;
   margin-left: 3px;
   margin-Right: 3px;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
 }
 .btnAdopta {
   color: #ffffff !important;
   background-color: #4361ee !important;
   margin-left: 3px;
   margin-Right: 3px;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
 }
 .btnContacto {
   color: #ffffff !important;
   background-color:  #4cc9f0 !important;
   margin-left: 3px;
   margin-Right: 3px;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
 }
 .btnAdmin {
   color: #ffffff !important;
   background-color: #1DD3B0 !important;
   margin-left: 3px;
   margin-Right: 3px;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
 }
-.btnEditor {
-  color: #ffffff !important;
-  margin-left: 3px;
-  margin-Right: 3px;
-}
-
 
 @media (max-width: 768px) {
   .botonera {

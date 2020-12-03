@@ -74,7 +74,7 @@ export default {
 }
 .tituloCard {
   color: #2c3e50c2 !important;
-  font-size: 25px;
+  font-size: 22px;
 }
 .textCard {
   text-align: left;

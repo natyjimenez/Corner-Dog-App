@@ -43,7 +43,7 @@ export default {
   text-align: left !important;
   font-family: "Source sans pro";
   color: #2c3e50c2 !important;
-  font-size: 25px !important;
+  font-size: 22px !important;
 }
 .txtIzqTip {
   text-align: left !important;

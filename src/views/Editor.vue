@@ -1,6 +1,6 @@
 <!-- Template -->
 <template>
-  <div class="">
+  <div class="editor">
     <!-- Botón Logout -->
     <button @click="logout" class="btnLogout">Logout</button>
     <!-- Tabla para Leer Información -->
@@ -49,14 +49,14 @@
       </tbody>
     </table>
    
-    <!-- Modal Editar -->
+    <!-- Modal Editar Perrito-->
     <b-modal id="modal-1" title="BootstrapVue" class="EditForm">
       <b-form-group id="input-group-1" label="Imagen:" label-for="input-1">
         <b-form-input v-model="adoptado.data.img"> </b-form-input>
       </b-form-group>
 
       <b-form-group id="input-group-1" label="Nombre:" label-for="input-1">
-        <b-form-input id="editNameDog" v-model="adoptado.data.nombre"> </b-form-input>
+        <b-form-input v-model="adoptado.data.nombre"> </b-form-input>
       </b-form-group>
 
       <b-form-group id="input-group-2" label="Sexo:" label-for="input-2">
@@ -80,7 +80,7 @@
       </b-form-group>
 
       <b-form-group id="input-group-2" label="Se adapta a otras mascotas:" label-for="input-2">
-        <b-form-input v-model="adoptado.data.mascotas"> </b-form-input>
+        <b-form-input id="adaptacion" v-model="adoptado.data.mascotas"> </b-form-input>
       </b-form-group>
 
       <b-form-group id="input-group-2" label="Apto para niños:" label-for="input-2">
@@ -92,57 +92,57 @@
       </b-form-group>
 
       <b-form-group id="input-group-2" label="Wapp:" label-for="input-2">
-        <b-form-input v-model="adoptado.data.wapp"> </b-form-input>
+        <b-form-input  v-model="adoptado.data.wapp"> </b-form-input>
       </b-form-group>
 
       <b-button type="submit" class="btnCambios" @click="update">Aceptar cambios</b-button>
     </b-modal>
     <hr />
 
-    <!-- Formulario Agregar Producto -->
+    <!-- Formulario Agregar Perrito -->
     <h4 class="titleAdd">Agrega un perrito para adopción</h4>
     <div class="w-50 m-auto formAdd">
-      <b-form-group id="input-group-1" label="Imagen:" label-for="input-1">
+      <b-form-group id="input-group-1" label="Imagen:" label-for="input-1" class="font-weight-bold">
         <b-form-input id="addImg" v-model="img"> </b-form-input>
       </b-form-group>
 
-      <b-form-group id="input-group-1" label="Nombre:" label-for="input-1">
+      <b-form-group id="input-group-1" label="Nombre:" label-for="input-1" class="font-weight-bold">
         <b-form-input id="addName" v-model="nombre"> </b-form-input>
       </b-form-group>
 
-      <b-form-group id="input-group-2" label="Sexo:" label-for="input-2">
+      <b-form-group id="input-group-2" label="Sexo:" label-for="input-2" class="font-weight-bold">
         <b-form-input id="addGender" v-model="sexo"> </b-form-input>
       </b-form-group>
 
-      <b-form-group id="input-group-2" label="Edad:" label-for="input-2">
+      <b-form-group id="input-group-2" label="Edad:" label-for="input-2" class="font-weight-bold">
         <b-form-input id="addAge" v-model="edad"> </b-form-input>
       </b-form-group>
 
-      <b-form-group id="input-group-2" label="Tamano:" label-for="input-2">
+      <b-form-group id="input-group-2" label="Tamano:" label-for="input-2" class="font-weight-bold">
         <b-form-input id="addSize" v-model="tamano"> </b-form-input>
       </b-form-group>
 
-       <b-form-group id="input-group-2" label="Esterilizado:" label-for="input-2">
+       <b-form-group id="input-group-2" label="Esterilizado:" label-for="input-2" class="font-weight-bold">
         <b-form-input id="addSterilized" v-model="esterilizado"> </b-form-input>
       </b-form-group>
 
-       <b-form-group id="input-group-2" label="Apto para departamento:" label-for="input-2">
+       <b-form-group id="input-group-2" label="Apto para departamento:" label-for="input-2" class="font-weight-bold">
         <b-form-input id="addApartment" v-model="espacio"> </b-form-input>
       </b-form-group>
 
-       <b-form-group id="input-group-2" label="Se adapta a otras mascotas:" label-for="input-2">
+       <b-form-group id="input-group-2" label="Se adapta a otras mascotas:" label-for="input-2" class="font-weight-bold">
         <b-form-input id="addPets" v-model="mascotas"> </b-form-input>
       </b-form-group>
 
-       <b-form-group id="input-group-2" label="Apto para niños:" label-for="input-2">
+       <b-form-group id="input-group-2" label="Apto para niños:" label-for="input-2" class="font-weight-bold">
         <b-form-input id="addChildren" v-model="ninos"> </b-form-input>
       </b-form-group>
 
-      <b-form-group id="input-group-2" label="Contacto:" label-for="input-2">
+      <b-form-group id="input-group-2" label="Contacto:" label-for="input-2" class="font-weight-bold">
         <b-form-input id="addContactName" v-model="contacto"> </b-form-input>
       </b-form-group>
 
-      <b-form-group id="input-group-2" label="Wapp:" label-for="input-2">
+      <b-form-group id="input-group-2" label="Wapp:" label-for="input-2" class="font-weight-bold">
         <b-form-input id="addContactNumber" v-model="wapp"> </b-form-input>
       </b-form-group>
 
@@ -233,7 +233,7 @@ export default {
 </script>
 
 <!-- Style -->
-<style>
+<style lang="scss">
 .btnLogout {
   color: #ffffff;
   background-color: rgb(48, 151, 247);
@@ -241,6 +241,10 @@ export default {
   border-radius: 5px;
   padding: 10px 20px;
   margin-top: 50px;
+}
+.editor {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
 }
 .titleTable {
   margin-top: 50px;
@@ -251,6 +255,7 @@ export default {
 }
 .titleAdd {
   margin-top: 50px;
+  margin-bottom: 50px;
   font-weight: bold;
 }
 .btnDelete {
@@ -261,6 +266,8 @@ export default {
   padding: 10px 20px;
   margin-right: 2px;
   margin-top: 3px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 .btnEdit {
   color: #ffffff !important;
@@ -269,6 +276,8 @@ export default {
   border-radius: 5px;
   padding: 10px 28px;
   margin-right: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 .btnAdd {
   color: #ffffff !important;
@@ -278,6 +287,8 @@ export default {
   padding: 10px 20px;
   margin-right: 2px;
   margin-bottom: 100px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 .btnCambios {
   color: #ffffff !important;
@@ -293,8 +304,4 @@ export default {
   width: 100px;
   height: auto;
 }
-@media (max-width: 768px) {
-
-}
-
 </style>

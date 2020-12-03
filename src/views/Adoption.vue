@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="banner-adoption">
-      <h1>Adopción</h1>
+      <h2>Adopción</h2>
     </div>
 
     <b-container class="introAdoption p-5">
@@ -49,7 +49,7 @@ export default {
   margin-bottom: 100px;
 }
 .banner-adoption {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-ADOPTA.png?alt=media&token=674e89ba-0ac9-4920-86e5-6db9f786d636");
+  background-image: url("../../src/assets/img/Banner/BANNER-ADOPTA.png");
   color: #ffffff;
   padding: 20px;
   text-shadow: 0.1em 0.1em #333;
@@ -62,5 +62,7 @@ export default {
   background-color: #6b9cf7ec;
   color: #ffffff;
   text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 </style>

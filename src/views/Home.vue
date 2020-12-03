@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="banner-home">
-      <h1>Home</h1>
+      <h2>Home</h2>
     </div>
     <div class="home container">
       <Carousel />
@@ -57,7 +57,7 @@ export default {
   margin-bottom: 30px;
 }
 .banner-home {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-HOME.png?alt=media&token=2de34c36-2872-4552-8d80-4fb983f31bf6");
+  background-image: url("../../src/assets/img/Banner/BANNER-HOME.png");
   opacity: 0.8;
   color: #ffffff;
   padding: 20px;
@@ -83,25 +83,25 @@ export default {
 .text--primary {
   color: #ffffff !important;
   margin-top: 20px;
-   font-weight: 700 !important;
-  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
 }
 .autorFrase2 {
   color: #ffffff !important;
   margin-top: 20px;
-  font-size: 16px !important;
+  font-size: 14px !important;
   font-style: italic;
 }
 .autorFrase1 {
   color: #ffffff !important;
   padding-top: 40px;
-  font-size: 16px !important;
+  font-size: 14px !important;
   font-style: italic;
 }
 .autorFrase3 {
   color: #ffffff !important;
   padding-top: 40px;
-  font-size: 16px !important;
+  font-size: 14px !important;
   font-style: italic;
 }
 </style>

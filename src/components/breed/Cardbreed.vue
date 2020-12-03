@@ -83,7 +83,7 @@ export default {
 }
 .tituloCard {
   color: #2c3e50c2 !important;
-  font-size: 25px;
+  font-size: 22px;
 }
 .cardBreed {
   font-family: "Source sans pro";

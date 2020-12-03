@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="banner-admin">
-      <h1>Administrador</h1>
+      <h2>Administrador</h2>
     </div>
     <div class="admin container">
       <b-form-group id="input-group-1" label="Email:" label-for="input-1" >
@@ -48,7 +48,7 @@ export default {
 <!-- Style -->
 <style>
 .banner-admin {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-ADMIN.png?alt=media&token=bb055cd4-a855-48dc-9238-a7f9c64bf3ca");
+  background-image: url("../../src/assets/img/Banner/BANNER-ADMIN.png");
   color: #ffffff;
   padding: 20px;
   text-shadow: 0.1em 0.1em #333;
@@ -60,13 +60,17 @@ export default {
   border-style: none !important;
   border-radius: 5px;
   padding: 10px 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 .input {
   max-width: 400px;
   margin: auto;
 }
 .admin {
-  margin-top: 100px;
+  margin-top: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }  
 .titleDatos {
   font-weight: bolder;

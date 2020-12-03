@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="banner-breed">
-      <h1>Información sobre Razas</h1>
+      <h2>Información sobre Razas</h2>
     </div>
 
     <b-container>
@@ -57,7 +57,7 @@ export default {
   margin-bottom: 100px;
 }
 .banner-breed {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-RAZAS.png?alt=media&token=8f46ac8e-1103-46a3-be64-1f8eefcfe39b");
+  background-image: url("../../src/assets/img/Banner/BANNER-RAZAS.png");
   color: #ffffff;
   padding: 20px;
   text-shadow: 0.1em 0.1em #333;
@@ -70,5 +70,7 @@ export default {
   background-color: rgb(149, 115, 228);
   color: #ffffff;
   text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 </style>

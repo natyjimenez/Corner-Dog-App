@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="banner-tips">
-      <h1>Enfermedades Genéticas</h1>
+      <h2>Enfermedades Genéticas</h2>
     </div>
 
     <b-container class="introEnfermedades p-5">
@@ -45,7 +45,7 @@ export default {
   margin-bottom: 100px;
 }
 .banner-tips {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-ENFERMEDADES.png?alt=media&token=cf5355b1-d532-4af1-840b-cfde239c5710");
+  background-image: url("../../src/assets/img/Banner/BANNER-ENFERMEDADES.png");
   color: #ffffff;
   padding: 20px;
   text-shadow: 0.1em 0.1em #333;
@@ -55,5 +55,7 @@ export default {
   background-color: #4a70ecc7;
   color: #ffffff;
   text-align: justify;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 </style>

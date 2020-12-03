@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="banner-about">
-      <h1 id="tituloMision">Misión</h1>
+      <h2 id="tituloMision">Misión</h2>
     </div>
     <div class="contMision">
       <b-container class="txtPrincipal p-5">
@@ -97,7 +97,7 @@ export default {};
   margin-bottom: 100px;
 }
 .banner-about {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/banners%2FBANNER-MISION.png?alt=media&token=e1c00c0a-a142-453b-87b9-10eed1156ea2");
+  background-image: url("../../src/assets/img/Banner/BANNER-MISION.png");
   color: #ffffff;
   padding: 20px;
   text-shadow: 0.1em 0.1em #333;
@@ -105,6 +105,8 @@ export default {};
 }
 .contMision {
   margin-bottom: 100px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 .txtPrincipal {
   background-color: #f36bbfde !important;

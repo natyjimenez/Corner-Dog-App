@@ -5,11 +5,14 @@ import firebase from "firebase";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
+  // ESTADO
   state: {
     razas: [],
     adoptados: [],
     tips: [],
+    formulario: [],
   },
+  // MUTACIONES
   mutations: {
     GET_DATA_RAZAS(state, razas) {
       state.razas = razas;
@@ -20,8 +23,13 @@ export default new Vuex.Store({
     GET_DATA_TIPS(state, tips) {
       state.tips = tips;
     },
+    GET_DATA_FORMULARIO(state, formulario) {
+      state.formulario = formulario;
+    },
   },
+  // ACCIONES
   actions: {
+  // petición asíncrona data ADOPTADOS
     async getDataAdoptados({ commit }) {
       try {
         await firebase
@@ -38,6 +46,7 @@ export default new Vuex.Store({
         console.log("error:", error);
       }
     },
+  // petición asíncrona data RAZAS
     async getDataRazas({ commit }) {
       try {
         await firebase
@@ -54,6 +63,7 @@ export default new Vuex.Store({
         console.log("error:", error);
       }
     },
+    // petición asíncrona data TIPS O ENFERMEDADES
     async getDataTips({ commit }) {
       try {
         await firebase
@@ -65,6 +75,23 @@ export default new Vuex.Store({
               tips.push({ id: p.id, data: p.data() });
             });
             commit("GET_DATA_TIPS", tips);
+          });
+      } catch (error) {
+        console.log("error:", error);
+      }
+    },
+    // petición asíncrona data FORMULARIO
+    async getDataFormulario({ commit }) {
+      try {
+        await firebase
+          .firestore()
+          .collection("formulario")
+          .onSnapshot((snapshot) => {
+            let formulario = [];
+            snapshot.forEach((p) => {
+              formulario.push({ id: p.id, data: p.data() });
+            });
+            commit("GET_DATA_FORMULARIO", formulario);
           });
       } catch (error) {
         console.log("error:", error);
@@ -90,6 +117,13 @@ export default new Vuex.Store({
         .doc(id)
         .delete();
     },
+    agregarFormulario({ commit }, form) {
+      firebase
+        .firestore()
+        .collection("formulario")
+        .add(form);
+    },
+
   },
   getters: {
     getAdoptadoUpdating: (state) => (id) => {

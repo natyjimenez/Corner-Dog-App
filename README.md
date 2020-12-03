@@ -1,11 +1,25 @@
 # Cornerdog
 
 CornerDog, es una App orientada a promover la adopción canina, y a la vez crear un poco de conciencia acerca del
-daño que provoca el negocio de los perros de raza.
+daño que provoca el negocio y la explotación de los perros de raza.
+
+El sitio cuenta con un ítem imformativo de Razas de perros, enfermedades hereditarias y un apartado para publicar perritos en adopción.
+
+Esta dirigido a cualquier persona que quiera adoptar un perrito y requiera información para elegir a su compañero adecuado y de manera responable.
 
 ![cornerdog](https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/readme%2Fvista-home.png?alt=media&token=71d28402-02be-4491-8e8e-87f65a553036)
 
-Para ver la App haz click [aquí](https://github.com/natyjimenez/Corner-Dog-App).
+![adopta](https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/readme%2Fvista-adopci%C3%B3n.png?alt=media&token=6a0ae0fa-4e34-49d2-a809-6c518fb8529d)
+
+---
+
+## Guía de estilos
+
+### Paleta de colores
+![paleta](https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/readme%2Fpaleta-colores.png?alt=media&token=c5701ba7-627c-429d-980c-ac93d03bc445)
+
+### Fuentes
+![fuentes](https://firebasestorage.googleapis.com/v0/b/corner-dog2.appspot.com/o/readme%2Ffuentes.png?alt=media&token=96facac8-d451-4711-83f5-00c062424fe2)
 
 ---
 
@@ -25,30 +39,36 @@ Para ver la App haz click [aquí](https://github.com/natyjimenez/Corner-Dog-App)
 
 ---
 
-## Project setup
+
+## Guía de instalación del proyecto
+
+### Instalar node modules
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar y levantar servidor local
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar para producción
 ```
 npm run build
 ```
 
-### Run your unit tests
+### Deploy de la aplicacion 
 ```
-npm run test:unit
+firebase deploy --only hosting
 ```
 
-### Run your end-to-end tests
+### Correr test e2e
 ```
 npm run test:e2e
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
+
+## Ruta de Acceso
+
+Para ver la App haz click [aquí](coming soon).
