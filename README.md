@@ -71,4 +71,4 @@ npm run test:e2e
 
 ## Ruta de Acceso
 
-Para ver la App haz click [aquí](https://corner-dog-cfcde.web.app/admin).
+Para ver la App haz click [aquí](https://corner-dog-cfcde.web.app).
