@@ -6,7 +6,7 @@
       <router-link to="/about"><b-button class="btnMision">Misión</b-button></router-link>     
        <router-link to="/breed"><b-button class="btnRazas">Razas</b-button></router-link>  
       <router-link to="/enfermedades"><b-button class="btnTips">Enfermedades Genéticas</b-button></router-link> 
-     <router-link to="/adoption"><b-button class="btnAdopta">Adopta</b-button></router-link>
+      <router-link to="/adoption"><b-button class="btnAdopta">Adopta</b-button></router-link>
       <router-link to="/contact"><b-button class="btnContacto">Contacto</b-button></router-link> 
       <router-link to="/admin"><b-button class="btnAdmin">Administrador</b-button></router-link> 
     </div>

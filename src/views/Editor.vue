@@ -1,9 +1,9 @@
 <!-- Template -->
 <template>
   <div class="editor">
-    <!-- Botón Logout -->
+    <!-- Botón Salir vista Editor -->
     <button @click="logout" class="btnLogout">Logout</button>
-    <!-- Tabla para Leer Información -->
+    <!-- Tabla para Leer Información Perrito-->
     <h4 class="titleTable">Adopciones</h4>
 
     <table class="table">

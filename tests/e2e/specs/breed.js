@@ -12,7 +12,7 @@ describe('Sección Razas Test', () => {
     cy.get('#pelajeRaza').contains('Corto y suave.')
     cy.get('#caractRaza').contains('Muy bueno con los niños, casi carente de agresividad.')
     cy.get('#espacioRaza').contains('Puede vivir en un espacio pequeño como departamento, pero requiere de paseo y juegos a diario.')
-    cy.get('#duenoRaza').contains('familia con niños')
+    cy.get('#duenoRaza').contains('Familia con niños')
     cy.get('#actividadRaza').contains('Media-alta.') 
     cy.wait(2000)  
   })
